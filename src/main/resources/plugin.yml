@@ -1,0 +1,15 @@
+name: SimpleTag
+main: modernera.SimpleTag.SimpleTag
+version: 1.0
+author: ModernEra_
+commands:
+   tag:
+      description: This starts a game of tag.
+      usage: /tag
+      permission: SimpleTag.basic
+      permission-message: You don't have perms!
+   whosit:
+      description: This shows whos it if the game is running.
+      usage: /whosit
+      permission: SimpleTag.basic
+      permission-message: You don't have perms!
